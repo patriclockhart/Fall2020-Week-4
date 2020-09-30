@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>HTML Form </title>
@@ -16,5 +16,131 @@
     Try to replecate the format of the form in the page.<br>
     Make use of "Label", "Input" and "Table".
 </p>
+
+<form action="/action_page.php">
+    <table border="1" bgcolor="#ffffff">
+        <thead bgcolor="#888888"></thead>
+        <tr>
+            <td>
+                <br>
+                <h1>Individual Project</h1>
+                <p>Choose a topic, and research interest for the individual visualization project.</p>
+                <p>* Required</p>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <label for="emailadd">Email address *</label><br>
+                <input type="text" id="emailadd" name="fname" value="Your email"><br>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <label for="fname">Firstname</label><br>
+                <input type="text" id="fname" name="fname" value="Your answer"><br>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <label for="lname">Lastname</label><br>
+                <input type="text" id="lname" name="lname" value="Your answer"><br>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <label for="rsearch">Research Interest (list at least 3)*</label><br>
+                <input type="text" id="rsearch" name="rsearch" value="Your answer"><br>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <label for="ptitle">Project Title - (e.g. income vs education US Census)*</label><br>
+                <input type="text" id="ptitle" name="ptitle" value="Your answer"><br>
+                <br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <br>
+                Top Skills*<br>
+                <form>
+                    <input type="checkbox" id="skill1" name="skill1" value="SQL">
+                    <label for="skill1">SQL</label><br>
+                    <input type="checkbox" id="skill2" name="skill2" value="SQL">
+                    <label for="skill2">Python programming</label><br>
+                    <input type="checkbox" id="skill3" name="skill3" value="SQL">
+                    <label for="skill3">Matlab</label><br>
+                    <input type="checkbox" id="skill4" name="skill4" value="SQL">
+                    <label for="skill4">D3js and Javascript</label><br>
+                    <input type="checkbox" id="skill5" name="skill5" value="SQL">
+                    <label for="skill5">C# VB.net</label><br>
+                    <input type="checkbox" id="skill6" name="skill6" value="SQL">
+                    <label for="skill6">PHP</label><br>
+                    <input type="checkbox" id="skill7" name="skill7" value="SQL">
+                    <label for="skill7">Node.JS</label><br>
+                    <input type="checkbox" id="skill8" name="skill8" value="SQL">
+                    <label for="skill8">Web design tools (e.g. Wordpress)</label><br>
+                    <input type="checkbox" id="skill9" name="skill9" value="SQL">
+                    <label for="skill9">HTML and CSS</label><br>
+                    <input type="checkbox" id="skill10" name="skill10" value="SQL">
+                    <label for="skill10">Excel,</label><br>
+                    <input type="checkbox" id="skill11" name="skill11" value="SQL">
+                    <label for="skill11">PowerBl</label><br>
+                    <input type="checkbox" id="skill12" name="skill12" value="SQL">
+                    <label for="skill12">Tableau</label><br>
+                    <input type="checkbox" id="skill13" name="skill13" value="SQL">
+                    <label for="skill13">Option 13</label><br>
+                    <input type="checkbox" id="skill14" name="skill14" value="SQL">
+                    <label for="skill14">Other:
+                        <input type="text" id="Other14" name="Other14">
+                    </label><br>
+                </form>
+                <br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <br>
+                <label for="Qsugg">Suggestions or Questions</label><br>
+                <input type="text" id="Qsugg" name="Qsugg" value="Your answer"><br>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <form>
+                    <label class="switch" for="myCopy">Send me a copy of my responses
+                        <input type="checkbox" class="slider round" id="myCopy" name="myCopy">
+                        <span class="slider round" id="myCopy1" name="myCopy1"></span>
+                    </label>
+                </form>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <input type="submit" value="Submit"><br>
+                <br>
+            </td>
+        </tr>
+
+    </table>
+
+</form>
+
 </body>
 </html>
